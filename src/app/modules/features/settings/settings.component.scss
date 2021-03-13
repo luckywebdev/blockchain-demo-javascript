@@ -1,0 +1,18 @@
+@import "../../../../assets/scss/variables";
+
+.container {
+  padding-top: 20px;
+  h1 {
+    font-family: $font-quicksand-Bold;
+  }
+}
+
+.form-control {
+  outline: 0 !important;
+  box-shadow: none;
+  &:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+    border-color: #f78f1e;
+  }
+}

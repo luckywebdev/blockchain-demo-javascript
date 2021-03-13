@@ -1,0 +1,19 @@
+@import "../../../../../assets/scss/variables";
+
+.container {
+  font-family: $font-quicksand;
+  h1 {
+    font-family: $font-quicksand-Bold;
+  }
+  padding-top: 20px;
+  .block-list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .transaction-table {
+    margin-top: 20px;
+  }
+}

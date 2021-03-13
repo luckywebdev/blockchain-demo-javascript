@@ -1,0 +1,18 @@
+<div class="container">
+  <h1>Settings</h1>
+  <p-messages></p-messages>
+
+  <form action="" [formGroup]="settingsForm">
+    <div class="form-group">
+      <label for="difficulty">Difficulty</label>
+      <input type="number" class="form-control" formControlName="difficulty" name="" id="difficulty">
+    </div>
+    <div class="form-group">
+      <label for="miningReward">Mining reward</label>
+      <input type="number" class="form-control" formControlName="miningReward" name="" id="miningReward">
+    </div>
+    <div class="form-group">
+      <button class="btn golden-btn" (click)="settingsData()">Set Data</button>
+    </div>
+  </form>
+</div>

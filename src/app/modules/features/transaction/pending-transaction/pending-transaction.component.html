@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Pending transactions</h1>
+  <div class="content">
+    <app-transaction [transactions]="pendingTransactions"></app-transaction>
+  </div>
+  <div class="form-group">
+    <button class="btn golden-btn" (click)="minePendingTransactions()">Start mining</button>
+  </div>
+
+</div>

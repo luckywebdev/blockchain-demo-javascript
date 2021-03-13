@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>Create Transaction</h1>
+  <p-messages></p-messages>
+
+  <form action="" [formGroup]="transactionForm">
+    <div class="form-group">
+      <label for="difficulty">Public Key</label>
+      <input type="text" class="form-control" formControlName="publicKey" name="" id="difficulty" readonly >
+    </div>
+    <div class="form-group">
+      <label for="miningReward">To Address</label>
+      <input type="text" class="form-control" formControlName="toAddress" name="" id="miningReward">
+    </div>
+    <div class="form-group">
+      <label for="miningReward">Amount</label>
+      <input type="number" class="form-control" formControlName="amount" name="" id="miningReward">
+    </div>
+    <div class="form-group">
+      <button class="btn golden-btn" (click)="createTransaction()">Sign & Create Transaction</button>
+    </div>
+  </form>
+</div>

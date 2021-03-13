@@ -1,0 +1,14 @@
+@import "../../../../../assets/scss/variables";
+
+.container {
+  h1 {
+    font-family: $font-quicksand-Bold;
+  }
+  padding-top: 20px;
+  .block-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+}
